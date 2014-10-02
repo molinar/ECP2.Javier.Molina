@@ -30,5 +30,10 @@ public class UserTest {
     public void testInitials() {
         assertEquals("J.", user.initials());
     }
+    
+    @Test
+    public void testPonerNombreMayusculas() {
+        assertEquals("JAVIER", user.ponerNombreMayusculas());
+    }
 
 }
