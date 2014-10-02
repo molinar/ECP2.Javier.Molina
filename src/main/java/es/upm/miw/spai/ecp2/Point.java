@@ -41,5 +41,10 @@ public class Point {
     public String toString() {
         return "Point[" + x + "," + y + "]";
     }
+
+    public double calcularDistancia(Point destino) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
     
 }
