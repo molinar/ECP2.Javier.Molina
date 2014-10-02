@@ -36,5 +36,10 @@ public class DecimalCollectionTest {
     public void testHigher() {
         assertEquals(dc.higher(), 2, 10e-2);
     }
+    
+    @Test
+    public void testMultiplicar(){
+        assertEquals(2.2 ,this.dc.multiplicar(), 10e-3);
+    }
 
 }
