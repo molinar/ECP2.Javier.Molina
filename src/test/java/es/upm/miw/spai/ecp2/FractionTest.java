@@ -31,5 +31,13 @@ public class FractionTest {
     public void testDecimal() {
         assertEquals(0.333, ft.decimal(),10e-3);
     }
+    
+    @Test
+    public void testSumar() {
+	    Fraction fraction = new Fraction(3, 5);
+	    Fraction fractionResult = new Fraction(14, 15);
+	    assertEquals(fractionResult.getNumerator(), ft.sumar(fraction).getNumerator());
+	    assertEquals(fractionResult.getDenominator(), ft.sumar(fraction).getDenominator());
+    }
 
 }

@@ -59,5 +59,10 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
+	public Fraction sumar(Fraction fraction) {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
 }
