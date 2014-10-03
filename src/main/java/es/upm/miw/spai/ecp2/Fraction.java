@@ -61,8 +61,12 @@ public class Fraction {
     }
 
 	public Fraction sumar(Fraction fraction) {
-		// TODO Auto-generated method stub
-		return null;
+		Fraction suma = new Fraction();
+		suma.numerator = (this.numerator * fraction.denominator)
+				+ (this.denominator * fraction.numerator);
+
+		suma.denominator = this.denominator * fraction.denominator;
+		return suma;
 	}
 
 	public boolean esMayor(Fraction fraction) {
