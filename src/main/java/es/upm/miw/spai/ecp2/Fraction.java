@@ -60,23 +60,23 @@ public class Fraction {
         return (double) numerator / denominator;
     }
 
-	public Fraction sumar(Fraction fraction) {
-		Fraction suma = new Fraction();
-		suma.numerator = (this.numerator * fraction.denominator)
-				+ (this.denominator * fraction.numerator);
+    public Fraction sumar(Fraction fraction) {
+        Fraction suma = new Fraction();
+        suma.numerator = (this.numerator * fraction.denominator)
+                + (this.denominator * fraction.numerator);
 
-		suma.denominator = this.denominator * fraction.denominator;
-		return suma;
-	}
+        suma.denominator = this.denominator * fraction.denominator;
+        return suma;
+    }
 
-	public boolean esMayor(Fraction fraction) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    public boolean esMayor(Fraction fraction) {
+        return (double)this.numerator / (double)this.denominator <
+                (double)fraction.getNumerator() / (double)fraction.getDenominator();
+    }
 
     public boolean esEquivalente(Fraction equivalente) {
         // TODO Auto-generated method stub
         return false;
     }
-    
+
 }
