@@ -73,5 +73,10 @@ public class Fraction {
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+    public boolean esEquivalente(Fraction equivalente) {
+        // TODO Auto-generated method stub
+        return false;
+    }
     
 }
