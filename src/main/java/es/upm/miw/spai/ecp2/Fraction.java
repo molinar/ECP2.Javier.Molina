@@ -75,8 +75,7 @@ public class Fraction {
     }
 
     public boolean esEquivalente(Fraction equivalente) {
-        // TODO Auto-generated method stub
-        return false;
+        return this.denominator*equivalente.getNumerator() == this.numerator*equivalente.getDenominator();
     }
 
 }
