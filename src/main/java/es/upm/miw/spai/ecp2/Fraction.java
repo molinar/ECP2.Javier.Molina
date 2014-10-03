@@ -64,5 +64,10 @@ public class Fraction {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	public boolean esMayor(Fraction fraction) {
+		// TODO Auto-generated method stub
+		return false;
+	}
     
 }

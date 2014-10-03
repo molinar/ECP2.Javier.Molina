@@ -39,5 +39,12 @@ public class FractionTest {
 	    assertEquals(fractionResult.getNumerator(), ft.sumar(fraction).getNumerator());
 	    assertEquals(fractionResult.getDenominator(), ft.sumar(fraction).getDenominator());
     }
+    
+    @Test
+    public void testEsMayor(){
+    	Fraction fraction = new Fraction(1,2);
+    	assertTrue(fraction.esMayor(ft));
+
+    }
 
 }
