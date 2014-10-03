@@ -43,7 +43,7 @@ public class FractionTest {
     @Test
     public void testEsMayor(){
     	Fraction fraction = new Fraction(1,2);
-    	assertTrue(fraction.esMayor(ft));
+    	assertTrue(ft.esMayor(fraction));
 
     }
 
